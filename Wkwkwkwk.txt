@@ -1503,7 +1503,7 @@ ThemeSection:AddKeybind("ui", Enum.KeyCode.RightAlt, function()
     Window:ToggleUI()
 end)
 
-getgenv().LuzorWindow = Window
-getgenv().LuzorLibrary = Library
+getgenv().DarkWindow = Window
+getgenv().DarkLibrary = Library
 
 return Library
