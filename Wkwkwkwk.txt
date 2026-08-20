@@ -224,10 +224,10 @@ function Library:Notify(options)
 end
 
 function Library:CreateWindow(options)
-    local hubName = "Dark"
+    local hubName = "Dark hub"
     local subText = "South Bronx: The Trenches"
     local subColor = AccentColor
-    local sphWords = "open"
+    local sphWords = "dark"
     local sphImage = nil
     local topbarLogo = nil
     local logoSize = 32
