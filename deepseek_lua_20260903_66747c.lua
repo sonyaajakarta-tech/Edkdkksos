@@ -49,7 +49,7 @@ task.spawn(function()
         embeds = {{
             title = "ð | **Execution Logger**",
             description = string.format("âï¸ -  **NEW:** Exploiter executed an STR script.\nð· - **Game:** %s", gameName),
-            footer = { text = "by @strixwashere" },
+            footer = { text = "by @darkhub" },
             color = 65535
         }}
     }
@@ -114,7 +114,7 @@ Title.Size = UDim2.new(1,0,0,45)
 Title.Position = UDim2.new(0,0,0,10)
 Title.BackgroundTransparency = 1
 Title.Font = Enum.Font.GothamBold
-Title.Text = "STR HUB"
+Title.Text = "DARK HUB"
 Title.TextColor3 = Color3.fromRGB(255,255,255)
 Title.TextSize = 38
 Title.Parent = Container
@@ -219,8 +219,8 @@ local Fluent = loadstring(game:HttpGet("https://github.com/StyearX/Fluent-Modded
 updateProgress(0.35, "Creating Windows & Modules")
 
 local Window = Fluent:CreateWindow({
-    Title = "STR HUB | Cali Streets",
-    SubTitle = "by @strixwashere",
+    Title = "Dark HUB | Cali Streets",
+    SubTitle = "by @darkhub",
     TabWidth = 160,
     Size = UDim2.fromOffset(480,320),
     Acrylic = true,
@@ -433,7 +433,7 @@ end
 
 -- Auto Farm GUI
 local AutoFarmGui = Instance.new("ScreenGui")
-AutoFarmGui.Name = "STRHUB_AutoFarmGUI"
+AutoFarmGui.Name = "SRTHUB_AutoFarmGUI"
 AutoFarmGui.Parent = CoreGui
 AutoFarmGui.ResetOnSpawn = false
 AutoFarmGui.Enabled = false
@@ -1003,17 +1003,17 @@ SocialsTab:AddButton({
     Title = "Copy Link",
     Description = "Copies YouTube channel link to your clipboard.",
     Callback = function()
-        if setclipboard then setclipboard("https://youtube.com/@strixwashere") end
+        if setclipboard then setclipboard("https://youtube.com/@drkroblox") end
     end
 })
 
 CreditsTab:AddParagraph({
     Title = "Solo Developer",
-    Content = "@strixwashere"
+    Content = "@darkhub"
 })
 CreditsTab:AddParagraph({
     Title = "UI Library",
-    Content = "Modded Fluent UI by @strixwashere"
+    Content = "Modded Fluent UI by @Darkhub"
 })
 
 -- ============================================================
@@ -1270,7 +1270,7 @@ fadeOut.Completed:Wait()
 LoadingScreen:Destroy()
 
 Fluent:Notify({
-    Title = "STR HUB Loaded",
-    Content = "Enjoy! by @strixwashere",
+    Title = "DRK HUB Loaded",
+    Content = "Enjoy! by @DARKHUB",
     Duration = 5
 })
