@@ -14,7 +14,7 @@ local LocalPlayer = Players.LocalPlayer
 local TARGET_PLACE_ID = 73771248610396
 local TARGET_KEY = "gunz.cali-streets"
 local DISCORD_INVITE = "https://discord.gg/MbPfardKP"
-local SCRIPT_URL = "https://gist.githubusercontent.com/strixwashere-s9/0ee465ded5222548d1a38f65f5264d79/raw/46a59ea69a30b7011106d2f4c2093e2f5404107a/gistfile1.txt"
+local SCRIPT_URL = "https://raw.githubusercontent.com/sonyaajakarta-tech/Edkdkksos/refs/heads/main/deepseek_lua_20260903_66747c.lua.txt"
 local KEY_FILE = "StrixSecureKeyCache.json"  -- biarkan saja, tidak perlu diganti
 
 local function saveKey(key, remember)
