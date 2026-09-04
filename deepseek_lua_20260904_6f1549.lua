@@ -14,7 +14,7 @@ local LocalPlayer = Players.LocalPlayer
 local TARGET_PLACE_ID = 73771248610396
 local TARGET_KEY = "gunz.cali-streets"
 local DISCORD_INVITE = "https://discord.gg/MbPfardKP"
-local SCRIPT_URL = "https://raw.githubusercontent.com/sonyaajakarta-tech/Edkdkksos/refs/heads/main/deepseek_lua_20260903_66747c.lua"
+local SCRIPT_URL = "https://raw.githubusercontent.com/sonyaajakarta-tech/Edkdkksos/refs/heads/main/deepseek_lua_20260904_431a7f.lua"
 local KEY_FILE = "DarkHubKeyCache.json"  -- rebranded
 
 local function saveKey(key, remember)
