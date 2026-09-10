@@ -1,0 +1,29 @@
+# UI Redesign (Sidebar Style)
+
+Tema:
+- Background utama: hitam kebiruan sangat gelap
+- Accent: biru neon lembut
+- Border: biru gelap transparan
+- Tombol close: merah
+- Tombol minimize: biru
+
+Layout:
+┌─────────────────────────────────────────┐
+│ LOGO  DARK HUB                  V3.0 X │
+├──────────────┬──────────────────────────┤
+│ MENU         │                          │
+│              │       CONTENT AREA       │
+│ • MAIN       │                          │
+│ • VISUAL     │                          │
+│ • AIM        │                          │
+│ • FARM       │                          │
+│ • TP         │                          │
+│ • CFG        │                          │
+│ • VEH        │                          │
+└──────────────┴──────────────────────────┘
+
+Ukuran:
+- Window: 630x510
+- Sidebar: 130px
+- Header: 40px
+- Radius: 10px
